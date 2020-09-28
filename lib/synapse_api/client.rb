@@ -6,7 +6,7 @@ module Synapse
  	# header values
 
     class Client
-        VALID_QUERY_PARAMS = [:query, :page, :per_page, :full_dehydrate, :radius, :zip, :lat, :lon, :limit, :currency, :ticker_symbol].freeze
+        VALID_QUERY_PARAMS = [:query, :page, :per_page, :full_dehydrate, :radius, :zip, :lat, :lon, :limit, :currency, :ticker_symbol, :filter].freeze
 
     	attr_accessor :http_client
 
